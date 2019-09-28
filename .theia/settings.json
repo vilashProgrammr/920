@@ -1,0 +1,16 @@
+ { "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+       "**/.theia": true,
+        "**/.pmainfile": true,
+        "**/.classpath": true,
+        "**/.project": true,  
+         "**/**.class": true,  
+          "**/bin": true,   
+       "**/.settings": true   
+   },
+ "java.jdt.ls.vmargs": "-DwatchParentProcess=false -noverify -Xmx2G -XX:+UseG1GC -XX:+UseStringDeduplication"
+ }
