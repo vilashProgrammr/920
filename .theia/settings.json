@@ -1,4 +1,4 @@
- { "files.exclude": {
+{ "files.exclude": {
       "**/.git": true,
       "**/.svn": true,
       "**/.hg": true,
@@ -12,5 +12,6 @@
           "**/bin": true,   
        "**/.settings": true   
    },
- "java.jdt.ls.vmargs": "-DwatchParentProcess=false -noverify -Xmx2G -XX:+UseG1GC -XX:+UseStringDeduplication"
+"java.jdt.ls.vmargs": "-DwatchParentProcess=false -noverify -Xmx2G -XX:+UseG1GC -XX:+UseStringDeduplication",
+"editor.autoSave": "on"
  }
